@@ -12,8 +12,8 @@ You will be graded on the exhaustiveness and quality of your unit tests, the dep
 
 `deterministicPartitionKey` function has been updated with the following changes:
 
-1. it' has been modified to use the helper functions `getPartitionKey`, `hashPartitionKey`, and `hashData` that are exported from the module.
+- it' has been modified to use the helper functions `getPartitionKey`, `hashPartitionKey`, and `hashData` that are exported from the module.
 
-2.The `getPartitionKey` function checks if the event object has a partitionKey property. If it exists, the value is returned. Otherwise, the event object is stringified and passed to the hashPartitionKey function to generate a hashed key.
-3. `hasData` function is pure function which hash and digest the data passed to it. It returns a hashed value of the data.
+- The `getPartitionKey` function checks if the event object has a partitionKey property. If it exists, the value is returned. Otherwise, the event object is stringified and passed to the hashPartitionKey function to generate a hashed key.
 
+- `hasData` function is pure function which hash and digest the data passed to it. It returns a hashed value of the data.

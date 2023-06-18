@@ -48,38 +48,37 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
     - GET `/api/facilities/:id/shifts` endpoint to fetch Shifts.
     - Modify the API endpoint for fetching Shifts to include the custom Agent IDs in the response.
 
-Estimated time: 3 hours
-Implementation details:
+  - Estimated time: 3 hours
+  - Implementation details:
     - Add GET `/api/facilities/:id/shifts` endpoint to fetch Shifts.
     - Update getShiftsByFacility function to include the custom Agent IDs in the response.
 
-Task 4: Generate Reports with Custom Agent IDs
-Description: Update the report generation logic to use custom Agent IDs.
-Blocker: Task 3
-Acceptance criteria:
+- Task 4: Generate Reports with Custom Agent IDs
+  - Description: Update the report generation logic to use custom Agent IDs.
+  - Blocker: Task 3
+  - Acceptance criteria:
     - Update generateReport function to use custom Agent IDs.
     - Update the report generation view to fetch and display the custom Agent IDs.
     - GET `/api/facilities/:id/reports` endpoint to generate reports and convert them to PDFs.
-Estimated time: 6 hours
+  - Estimated time: 6 hours
 
 ## Front-end
 
-Task 1: Add Custom Agent IDs for Facilities
-Description: add a new field to the Facility form to allow Facilities to save custom Agent IDs.
-Acceptance criteria:
+- Task 1: Add Custom Agent IDs for Facilities
+  - Description: add a new field to the Facility form to allow Facilities to save custom Agent IDs.
+  - Acceptance criteria:
     - Add a new field to the Facility form to allow Facilities to save custom Agent IDs.
     - Update the form submission logic to save the custom Agent IDs to the database.
-Implementation details:
+  - Implementation details:
     - Create a form or input component to capture custom Agent IDs from Facilities.
     - Connect the form to the back-end API to save the custom Agent IDs.
     - Update the report generation view to fetch and display the custom Agent IDs.
+  - Estimated time: 8 hours
 
-Estimated time: 8 hours
-
-Task 2: Generate Reports with Custom Agent IDs
-Description: Update the report generation logic to use custom Agent IDs.
-Blocker: Task 1
-Acceptance criteria:
+- Task 2: Generate Reports with Custom Agent IDs
+  - Description: Update the report generation logic to use custom Agent IDs.
+  - Blocker: Task 1
+  - Acceptance criteria:
     - Update the report generation view to fetch and display the custom Agent IDs.
     - Update the report generation logic to use custom Agent IDs.
-Estimated time: 6 hours
+  - Estimated time: 6 hours
